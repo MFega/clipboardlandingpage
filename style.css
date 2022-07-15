@@ -1,0 +1,358 @@
+/* ### Primary
+
+- Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url("./clipboard-landing-page-master/images/bg-header-mobile.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    text-align: center;
+     margin: 30px;  
+    width: 100%;
+}
+
+
+.history .logo{
+    margin-bottom: 30px;
+}
+
+.history-item h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.history-item p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.buttons{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.buttons .btn{
+    border-radius: 30px;
+    background: hsl(171, 66%, 44%);
+    color: white;
+    font-size: 18px;
+    padding: 15px 50px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.buttons .btn-2{
+    border-radius: 30px;
+    background: hsl(233, 100%, 69%) ;
+    color: white;
+    font-size: 18px;
+    padding: 15px 50px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: none;
+    margin-bottom: 150px;
+}
+
+/* Second section */
+
+
+.snippets-item h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.snippets-item p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.snippets-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.logo-2{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.logo-2 img{
+    width: 100%;
+}
+
+.snippets-drp{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.dropdown{
+    margin-bottom:50px ;
+}
+
+.dropdown h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dropdown p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Third section */
+.access h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.access p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 25px;
+   
+}
+
+.logo-3{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.logo-3 img{
+    width: 100%;
+}
+
+/* Fourth section */
+.workflow h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.workflow p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.workflow-article{
+     padding-top: 35px; 
+}
+
+.workflow-article-1{
+    padding-top: 28px;
+}
+
+.logo-4,.logo-5,.logo-6{
+    margin-bottom: 30px;
+}
+
+.workflow-item h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.workflow-item p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+ 
+/* Fifth section */
+
+.logos{
+    margin: 100px 0px;
+}
+
+.logo{
+    margin-bottom: 50px;
+}
+
+/* Sixth section */
+.clipboard h2{
+    color:hsl(210, 10%, 33%) ;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clipboard p{
+    color: hsl(201, 11%, 66%);
+    width: 100%;
+    margin:0 auto;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* Seventh section */
+.footer{
+    padding: 30px 20px 0px 20px;
+}
+.footer-image{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer-image img{
+    width: 20%;
+}
+
+.footer-links ul{
+    margin: 0 auto;
+width: 90%;
+    list-style: none;
+}
+
+.footer-links ul li a{
+    display: block;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%) ;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.footer-icons .facebook,.footer-icons .twitter{
+    margin-right: 40px;
+}
+
+@media only screen and (min-width:768px){
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     grid-gap: 1em;
+     
+}
+
+    .footer-links ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+         justify-content: space-between; 
+    }
+
+    .footer-links ul li{
+        flex: 1 0 auto;
+    } 
+
+ body{
+    background: url("./clipboard-landing-page-master/images/bg-header-desktop.png") no-repeat;
+ }
+
+ .buttons{
+    display: block;
+ }
+
+    .snippets-2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    .logo-2{
+        width: 50%;
+    }
+
+    .logo-2 img{
+        width: 100%;
+    }
+
+    .snippets-drp{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         text-align: left; 
+        flex-direction: column;
+    }
+
+.dropdown{
+    margin-bottom: 10px;
+}
+
+    .dropdown h2{
+        color:hsl(210, 10%, 33%) ;
+        width: 80%;
+    }
+    
+    .dropdown p{
+        color: hsl(201, 11%, 66%);
+        width: 80%;
+        padding: 10px 0px 30px 0px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .workflow-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 2em;
+    }
+
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+}
